@@ -1,0 +1,175 @@
+.contact-item {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.li-contact a{
+  color: yellow;
+
+  
+}
+.contact{
+  margin-top: 120px;
+}
+.contact-info h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-bottom: 15px;
+}
+.contact-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+  margin-bottom: 15px;
+}
+.contact-info h3:last-child {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.contact-number-info {
+  align-items: center;
+  margin-bottom: 10px;
+  width: 385px;
+  height: 94px;
+  margin-left: 10px;
+}
+.contact-number {
+  background-color: #c00a2d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-address {
+  margin-left: 18px;
+}
+.contact-address p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.contact-address a {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #c00a2d;
+}
+
+#map{
+  margin-left: 30px;
+ 
+}
+
+.contact-number-info:hover{
+    background-color: #C00A2D;
+}
+
+.contact-number-info:hover a{
+color: #FFF600;
+}
+.contact-number-info:hover p{
+    color: #FFFFFF;
+}
+
+.contact-number-info:hover .contact-number{
+    border: 2px solid #ffffff;
+}
+@media (max-width: 1400px){
+ 
+ 
+  iframe{
+      width: 700px;
+      height: 800px;
+  }
+}
+@media (max-width: 1200px){
+  .contact-item{
+      flex-direction: column;
+      align-items: center;
+      
+  }
+ .contact-info{
+   margin-bottom: 40px;
+ }
+  iframe{
+      width: 800px;
+      height: 600px;
+  }
+}
+@media (max-width: 992px){
+  .contact-item{
+      flex-direction: column;
+      align-items: center;
+      
+  }
+ .contact-info{
+   margin-bottom: 40px;
+ }
+  iframe{
+      width: 700px;
+      height: 500px;
+  }
+}
+
+
+@media (max-width: 768px){
+    .contact-item{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+   .contact-info{
+     margin-bottom: 40px;
+   }
+    iframe{
+        width: 500px;
+        height: 431px;
+    }
+}
+@media (max-width: 548px){
+  #map{
+    margin-left: 0px;
+    
+  }
+  iframe{
+    width: 420px;
+  }
+  
+ 
+}
+@media (max-width: 414px){
+  #map{
+    margin-left: 0px;
+    
+  }
+  iframe{
+    width: 370px;
+  }
+  .contact-info{
+    width: 360px;
+  }
+  .cart-side{
+    width: 370px;
+  }
+  .contact-number-info{
+    width: 360px;
+  }
+  
+ 
+}
+

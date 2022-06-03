@@ -1,0 +1,27 @@
+.product-highlight-menu {
+  margin-bottom: 68px;
+}
+
+.card-text {
+  margin-bottom: 0.4rem;
+}
+.my {
+  height: 80px;
+}
+.mon-phu {
+  height: 100px;
+}
+.drink {
+  height: 80px;
+}
+@media (max-width: 414px) {
+  .my {
+    height: 65px;
+  }
+  .mon-phu {
+    height: 65px;
+  }
+  .drink {
+    height: 65px;
+  }
+}

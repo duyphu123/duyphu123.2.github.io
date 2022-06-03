@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo2.ico" type="image/x-icon">
+<link rel="icon" href="./images/logo2.ico" type="image/x-icon">
+    <!-- CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font-icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&family=Montserrat:wght@300;400;700;900&family=Roboto:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/thanhtoan.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <title>Pizza Shop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container-fluid">
+          <div class="header-inner d-flex">
+            <div class="container d-flex header-fix">
+              <img
+                class="menu-icon"
+                src="./images/menu-icon.png"
+                alt="menu-icon"
+              />
+              <div class="logo">
+                <a href="">
+                  <img src="./images/logo.png" alt="logo" />
+                </a>
+              </div>
+              <div class="menu d-flex">
+                <ul class="nav-list nav-list-768 nav-list-1200">
+                  <div class="container container-li d-flex">
+                    <li class="nav-item li-trang-chu">
+                      <a href="./index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item li-menu">
+                      <a class="d-flex" href="./menu.html">Menu </a>
+                    </li>
+                    <li class="nav-item li-news">
+                      <a href="./news.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item li-baiviet">
+                      <a href="./baiviet.html">Bài Viết</a>
+                    </li>
+                    <li class="nav-item li-contact">
+                      <a href="./contact.html">Liên Hệ</a>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <div class="login">
+                <div class="cart">
+                  <img src="./images/CartPlus.png" alt="cart" />
+                  <div class="cart-quantity">0</div>
+                </div>
+                <div class="user-icon">
+                  <img src="./images/user.png" alt="user" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container-fluid">
+        <div class="banner">
+          <img src="./images/banner.png" alt="user" />
+        </div>
+      </div>
+      <div class="thanhtoan" id="thanhtoan">
+        <div class="container">
+          <h2 class="h2-heading">Thanh Toán</h2>
+          <div class="line text-center">
+            <img src="./images/line.png" alt="line" />
+          </div>
+          <div class="thanhtoan-item d-flex">
+            <div class="thanhtoan-product">
+              <div class="thanhtoan-product-item d-flex">
+                <div class="col1">
+                  <span>Sản Phẩm</span>
+                </div>
+                <div class="col2 thanhtoan-product-item2">
+                  <span>Giá</span>
+                </div>
+                <div class="col3 thanhtoan-product-item2">
+                  <span >Số Lượng</span>
+                </div>
+                <div class="col4 thanhtoan-product-item2">
+                  <span>Tổng</span>
+                </div>
+              </div>
+              <div class="thanhtoan-info">
+                <div class="cart-item-thanhtoan d-flex">
+                  <div class="col1">
+                    <div class="cart-item-thanhtoan-2">
+                      <div class="cart-item-image-thanhtoan">
+                        <img src="./images/PZ1.png" alt="pz1" />
+                      </div>
+                      <div class="cart-item-info-thanhtoan" id="dialog">
+                        <div class="name-thanhtoan">
+                          Pizza Trứng Cút Xốt Phô Mai - Kid Mania
+                        </div>
+                        <div class="size-thanhtoan d-flex align-items-center">
+                          <button
+                            class="btn btn1 btn-outline-secondary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Size S
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu1">
+                            <li><a class="dropdown-item sizeS sizeS1">Size S</a></li>
+                            <li><a class="dropdown-item sizeM sizeM1">Size M</a></li>
+                            <li><a class="dropdown-item sizeL sizeL1">Size L</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col2">
+                    <div class="gia-thanhtoan gia-thanhtoan1"><span>249000</span> đ</div>
+                  </div>
+                  <div class="col3">
+                    <input class="input1"
+                      style="width: 30px; outline: none"
+                      type="number"
+                      value="1"
+                      min="1"
+                    />
+                  </div>
+
+                  <div class="col4">
+                    <div class="col4-2 d-flex">
+                      <div class="tong tong1"><span></span> đ</div>
+                      <div class="delete-product-thanhtoan align-items-center">
+                        <i class="fa-solid fa-trash-can"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-item-thanhtoan d-flex">
+                  <div class="col1">
+                    <div class="cart-item-thanhtoan-2">
+                      <div class="cart-item-image-thanhtoan">
+                        <img src="./images/mp1.png" alt="pz1" />
+                      </div>
+                      <div class="cart-item-info-thanhtoan">
+                        <div class="name-thanhtoan">
+                          Mỳ Ý Hải Sản
+                        </div>
+                        <div class="size-thanhtoan d-flex align-items-center">
+                          <button
+                            class="btn btn2 btn-outline-secondary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Size S
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li><a class="dropdown-item sizeS2">Size S</a></li>
+                            <li><a class="dropdown-item sizeM2">Size M</a></li>
+                            <li><a class="dropdown-item sizeL2">Size L</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col2">
+                    <div class="gia-thanhtoan gia-thanhtoan2"><span>89000</span> đ</div>
+                  </div>
+                  <div class="col3">
+                    <input class="input2"
+                      style="width: 30px; outline: none"
+                      type="number"
+                      value="1"
+                      min="1"
+                    />
+                  </div>
+
+                  <div class="col4">
+                    <div class="col4-2 d-flex">
+                      <div class="tong tong2"><span>0</span> đ</div>
+                      <div class="delete-product-thanhtoan align-items-center">
+                        <i class="fa-solid fa-trash-can"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-item-thanhtoan d-flex ">
+                  <div class="col1">
+                    <div class="cart-item-thanhtoan-2">
+                      <div class="cart-item-image-thanhtoan">
+                        <img src="./images/du1.png" alt="pz1" />
+                      </div>
+                      <div class="cart-item-info-thanhtoan cart-item-info-thanhtoan-last">
+                        <div class="name-thanhtoan">
+                          Nước Chanh Tươi
+                        </div>
+                        <div class="size-thanhtoan d-flex align-items-center">
+                          <button
+                            class="btn btn3 btn-outline-secondary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Size S
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu3">
+                            <li><a class="dropdown-item sizeS3">Size S</a></li>
+                            <li><a class="dropdown-item sizeM3">Size M</a></li>
+                            <li><a class="dropdown-item sizeL3">Size L</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col2">
+                    <div class="gia-thanhtoan gia-thanhtoan3"><span></span> đ</div>
+                  </div>
+                  <div class="col3">
+                    <input class="input3"
+                      style="width: 30px; outline: none"
+                      type="number"
+                      value="1"
+                      min="1"
+                    />
+                    
+                  </div>
+
+                  <div class="col4">
+                    <div class="col4-2 d-flex">
+                      <div class="tong tong3"><span type="number"></span> đ</div>
+                      <div class="delete-product-thanhtoan align-items-center">
+                        <i class="fa-solid fa-trash-can"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dathang">
+            <div class="dathang2 d-flex">
+              <div class="col-left d-flex">
+                <button class="btn-giamgia">Nhập mã giảm giá</button>
+                <button class="btn-ap">Áp Dụng</button>
+              </div>
+              <div class="col-right">
+                <div class="row1">
+                  <p class="text-row1">Tạm Tính :</p>
+                </div>
+                <div class="row1">
+                  <p class="text-row1">Giảm Giá :</p>
+                </div>
+                <div class="row1">
+                  <p class="text-row1">Tổng Cộng :</p>
+                </div>
+              </div>
+              <div class="col-right2">
+                <div class="row1 d-flex">
+                  <p class="text-row2">99999đ</p><p>VNĐ</p>
+                </div>
+                <div class="row1 d-flex">
+                  <p class="text-row2">0</p><p>VNĐ</p>
+                </div>
+                <div class="row1 d-flex">
+                  <p class="text-row2 tongcong">99999đ</p><p>VNĐ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex btn-dathang">
+            <button class="btn-dathang2"  id='show' >Đặt Hàng</button>
+          </div>
+        
+        </div>
+      </div>
+      <div class="info-thanhtoan">
+        <div id="info"
+              class="">
+              <div class="thongtin-nhanhang">
+                  <p >Thông tin nhận hàng</p>
+              </div>
+              <div >
+                  <div class="d-flex hovaten">
+                      <p>Họ và tên người nhận</p>
+                      <div class="name-info1">
+                          <input class="name-info" type="text"
+                              placeholder="Nhập họ và tên người nhận">
+                          <p id="name-error"></p>
+                      </div>
+                  </div>
+                  <div class="d-flex tinh-thanhpho">
+                      <p>Tỉnh/Thành phố</p>
+                      <div>
+                          <select id="province">
+                              <option value="none">Chọn Tỉnh/Thành phố</option>
+                          </select>
+                          <p id="province-error"></p>
+                      </div>
+
+                  </div>
+                  <div class="d-flex quan-huyen">
+                      <p>Quận/Huyện</p>
+                      <div>
+                          <select id="district">
+                              <option value="none">Chọn Quận/Huyện</option>
+                          </select>
+                          <p id="district-error"></p>
+                      </div>
+                  </div>
+                  <div class="d-flex phuong-xa">
+                      <p>Phường/Xã</p>
+                      <div>
+                          <select id="commune">
+                              <option value="none">Chọn Phường/Xã</option>
+                          </select>
+                          <p id="commune-error"></p>
+                      </div>
+                  </div>
+                  <div class="d-flex dcnh">
+                      <p>Địa chỉ nhận hàng</p>
+                      <div class="name-info1">
+                          <input class="diachi" type="text"
+                              placeholder="Nhập địa chỉ nhận hàng">
+                          <p id="diachi-error"></p>
+                      </div>
+                  </div>
+                  <div class="d-flex sdt">
+                      <p>Số điện thoại</p>
+                      <div class="name-info1">
+                          <input class="phone-number" type="text"
+                              placeholder="Nhập số điện thoại">
+                          <br>
+                          <p id="phone-error"></p>
+                      </div>
+                  </div>
+                  <div class="flex btn-info2">
+                      <button class="cancel ">Hủy</button>
+                      <button class="confirm">Xác nhận</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="overlay"></div>
+      
+      <div class="popup-delete-thanhtoan">
+        <p>Bạn muốn xoá sản phẩm ?</p>
+        <button class="co">Có</button>
+        <button class="khong">Không</button>
+      </div>
+      <div class="overlay-thanhtoan"></div>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="item col-12 col-lg-3 col-md-6 col-sm-12 text-center">
+            <div class="logo-image"></div>
+          </div>
+          <div class="item col-12 col-lg-3 col-md-6 col-sm-12 text-center">
+            <p class="footer-title">Thông tin liên hệ</p>
+            <p class="footer-link">
+              <a target="_blank" href="https://goo.gl/maps/U37UxTnCCesQCuza7"
+                >Địa chỉ : 62 Bà Triệu,  Hà Nội</a
+              >
+            </p>
+            <p class="footer-link">
+              <a href="tel:0987654321">Điện thoại : 0963578859</a>
+            </p>
+            <p class="footer-link">
+              <a href="mailto: abc@example.com"
+                >Email : pizzashop@gmail.com</a
+              >
+            </p>
+            <div class="footer-link ">
+              <a href="#" class="footer-icon"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="#" class="footer-icon"
+                ><i class="fab fa-instagram-square"></i
+              ></a>
+              <a href="#" class="footer-icon"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="item col-12 col-lg-3 col-md-6 col-sm-12 text-center">
+            <p class="footer-title">Chính sách và quy định</p>
+            <p class="footer-link">
+              <a href="#">Chính sách & Quy định chung</a>
+            </p>
+            <p class="footer-link"><a href="#">Phương thức thanh toán</a></p>
+            <p class="footer-link"><a href="#">Quy định đổi trả</a></p>
+            <p class="footer-link">
+              <a href="#">Chính sách bảo mật thông tin cá nhân</a>
+            </p>
+            <p class="footer-link"><a href="#">Khiếu nại, phản hồi</a></p>
+          </div>
+          <div class="item col-12 col-lg-3 col-md-6 col-sm-12 text-center">
+            <p class="footer-title">dịch vụ khách hàng</p>
+            <p class="footer-link"><a href="#">Giao hàng tận nơi</a></p>
+            <p class="footer-link"><a href="#">Thanh toán qua ví MoMo</a></p>
+            <p class="footer-link">
+              <a href="#">Tri ân khách hàng thân thiết</a>
+            </p>
+            <p class="footer-link"><a href="#">Chăm sóc, hậu mãi</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <p class="copy-right text-center">
+            © 2022 Pizza Shop. All rights reserved
+          </p>
+        </div>
+      </div>
+      
+    </section>
+    </div>
+    <div class="cart-side open">
+      <button type="button" class="btn-close" aria-label="Close"></button>
+      <div class="title text-center">Giỏ hàng của tôi</div>
+      <div class="cart-side2"></div>
+
+      <div class="cart-side-bottom">
+        <div class="cart-side-bottom-a">
+          <a href="menu.html#menu-pizza">Thêm món</a>
+        </div>
+        <div
+          class="sub-total d-flex align-items-center justify-content-between"
+        >
+          Tổng cộng <span class="last-all">0 </span><span class="last-all-d">VNĐ</span>
+        </div>
+        <div class="cart-side-btn text-center mt-3">
+          <button class="btn-thanhtoan" onclick="window.location.href='./thanhtoan.html#thanhtoan' ">Thanh Toán</button>
+        </div>
+      </div>
+      <div class="popup-delete">
+        <p>Bạn muốn xoá sản phẩm ?</p>
+        <button class="co">Có</button>
+        <button class="khong">Không</button>
+      </div>
+    </div>
+    <div class="hotline-phone-ring-wrap">
+      <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="tel:0963578859" class="pps-btn-img">
+          <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+      </div>
+      <div class="hotline-bar">
+        <a href="tel:0963578859">
+          <span class="text-hotline">0963.578.859</span>
+        </a>
+      </div>
+    </div>
+    <div title="Về đầu trang" id="top-up">
+      <i class="fas fa-arrow-circle-up"></i></div>
+      
+    <script type="module" src="/js/main.js"></script>
+    <!-- <script src="./js/main2.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/thanhtoan.js"></script>
+  </body>
+</html>
